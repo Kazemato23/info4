@@ -123,3 +123,19 @@ int main(){
     initChaine(nb,min,max);
     return 0;
 }
+
+
+
+
+
+/*char initChaine(int nbLettres,char charmin,char charmax){
+    int lettre=nbLettres;
+    if(nbLettres==0){
+        return 0;
+    }
+    char c = alea(charmin,charmax);
+    //cout<<c<<endl<<initChaine(nbLettres-1,charmin,charmax);
+    for (int i=0;i<lettre;i++) {
+        //faut faire escalier
+    }
+}    */
